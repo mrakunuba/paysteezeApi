@@ -35,6 +35,11 @@ app.get('/api/data/transactions', (req, res) => {
   res.status(200).json(dataTransactions);
 });
 
+// Root route
+app.get('/', (req, res) => {
+  res.status(200).send('Welcome to the Mock API Server');
+});
+
 app.listen(port, () => {
   console.log(`Mock API Server listening at http://localhost:${port}`);
 });
