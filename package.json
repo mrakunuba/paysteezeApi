@@ -1,0 +1,11 @@
+{
+  "name": "mock-api-server",
+  "version": "1.0.0",
+  "main": "mock-api-server.js",
+  "scripts": {
+    "start": "node mock-api-server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
